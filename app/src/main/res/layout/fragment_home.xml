@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bottomnavbar.fragments.HomeFragment"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header_frag_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/bold"
+                android:text="@string/hello"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="46dp"
+                android:src="@drawable/avatar"
+                app:civ_border_color="@color/black"
+                app:civ_border_width="2dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_info"
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#91DCFF"
+                app:cardCornerRadius="40dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/card_piece4"
+                        android:layout_marginTop="103dp">
+
+                        <TextView
+                            android:id="@+id/btn_read"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/light"
+                            android:text="@string/read"
+                            android:textColor="#60686C"
+                            android:textSize="17sp"
+                            android:textAlignment="center"
+                            android:gravity="center"/>
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/img_fruits"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_fruits"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/light"
+                        android:textSize="17sp"
+                        android:text="@string/about_fruit"
+                        android:textColor="@color/black"
+                        android:layout_toEndOf="@id/img_fruits"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="30dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/recycler_view_template"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/card_info"
+                android:nestedScrollingEnabled="false"/>
+
+        </RelativeLayout>
+
+
+</LinearLayout>

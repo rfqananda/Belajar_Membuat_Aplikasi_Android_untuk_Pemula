@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--Card 1-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <RelativeLayout
+            android:id="@+id/menu_color_card1"
+            android:layout_width="330dp"
+            android:layout_height="145dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/card_piece_read">
+
+            <TextView
+                android:id="@+id/tv_satu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:text="@string/apel"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_desc_satu"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_satu"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/reguler"
+                android:text="@string/manfaat_apel"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_satu"
+            android:layout_width="90dp"
+            android:layout_height="150dp"
+            android:src="@drawable/apple_cover"
+            android:layout_marginStart="10dp"/>
+
+
+    </RelativeLayout>
+
+    <!--Card 2-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <RelativeLayout
+            android:id="@+id/menu_color_card2"
+            android:layout_width="330dp"
+            android:layout_height="145dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/card_piece_read">
+
+            <TextView
+                android:id="@+id/tv_dua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/bold"
+                android:text="@string/alpuket"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_desc_dua"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_dua"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/reguler"
+                android:text="@string/manfaat_alpukat"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_dua"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:src="@drawable/avocado_cover"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

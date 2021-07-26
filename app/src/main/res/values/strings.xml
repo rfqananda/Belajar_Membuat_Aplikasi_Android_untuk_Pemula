@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Toko Buah</string>
+    <string name="home">Home</string>
+    <string name="user">User</string>
+    <string name="name">Rifqi Ananda</string>
+    <string name="email">Rfqananda@gmail.com</string>
+    <string name="apel">Apel</string>
+    <string name="naga">Pitaya</string>
+    <string name="nanas">Nanas</string>
+    <string name="jeruk">Jeruk</string>
+    <string name="pisang">Pisang</string>
+    <string name="blimbing">Belimbing</string>
+    <string name="alpuket">Alpukat</string>
+    <string name="semangka">Semangka</string>
+    <string name="bluberi">Bluberi</string>
+    <string name="anggur">Anggur</string>
+    <string name="hello">Hello!</string>
+    <string name="read">Read</string>
+    <string name="about_fruit">Cek disini untuk mengetahui kandungan serta manfaat dari buah-buah yang ingin kamu beli.</string>
+    <string name="details">Details</string>
+    <string name="kg">/kg</string>
+    <string name="buah">Pineapple</string>
+    <string name="harga">Rp13.000,00</string>
+    <string name="buy">Buy</string>
+    <string name="rating">5.0</string>
+    <string name="fruits_mart">Fruits Mart</string>
+    <string name="back_shop">Back to Shop</string>
+
+    <string name="manfaat_naga">Buah naga mengandung beberapa jenis antioksidan yang ampuh melawan radikal bebas, seperti vitamin C, betalains, dan karotenoid.</string>
+    <string name="manfaat_alpukat">Alpukat kaya akan kalium. Mineral ini bermanfaat untuk mengontrol tekanan darah dan mencegah tekanan darah tinggi (hipertensi)</string>
+    <string name="manfaat_apel">Apel kaya dengan antioksidan quercetin dan polifenol. Maka dari itu, apel bermanfaat untuk mencegah kerusakan sel akibat radikal bebas. </string>
+    <string name="manfaat_pisang">Kalium yang terkandung dalam buah pisang dapat membantu mengatur keseimbangan cairan dan elektrolit sehingga tekanan darah tetap stabil</string>
+    <string name="manfaat_semangka">Kandungan antioksidan dalam semangka membantu memerangi stres oksidatif akibat ketidakseimbangan produksi radikal bebas dalam tubuh.</string>
+    <string name="manfaat_belimbing">Belimbing memiliki kandungan antioksidan yang dapat menangkal radikal bebas serta mengurangi risiko peradangan pada kulit.</string>
+    <string name="manfaat_bluberi">Vitamin C pada blueberry juga dapat berfungsi sebagai antioksidan yang bermanfaat untuk mempercepat proses penyembuhan luka</string>
+    <string name="manfaat_jeruk">Buah yang kaya vitamin C ini mengandung beta-karoten, antioksidan yang bisa melindungi sel-sel kulit dari kerusakan.</string>
+    <string name="manfaat_anggur">Buah anggur mengandung lutein dan zeaxanthin, dua karotenoid dengan sifat antioksidan yang penting bagi kesehatan mata.</string>
+    <string name="manfaat_nanas">Nanas mengandung enzim pencernaan yang disebut bromelain. Bromelain berfungsi untuk melancarkan pencernaan.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

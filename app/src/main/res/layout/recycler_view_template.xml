@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/body_card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/color_card1"
+            android:layout_width="320dp"
+            android:layout_height="253dp"
+            android:background="@drawable/card_piece1"
+            >
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/grape_cover" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="@string/buah"
+                android:textColor="#FDFDFD"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/image_view"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/txt_name"
+                android:fontFamily="@font/light"
+                android:gravity="center"
+                android:text="@string/kg"
+                android:textAlignment="center"
+                android:textColor="#FDFDFD"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/body_card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/color_card1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/color_card2"
+                android:layout_width="200dp"
+                android:layout_height="67dp"
+                android:background="@drawable/card_piece2">
+
+                <TextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="175dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/light"
+                    android:gravity="center"
+                    android:text="@string/harga"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/card_piece3">
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_detail"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/color_card1"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="17dp"
+            android:layout_toEndOf="@id/body_card2"
+            android:src="@drawable/ic_arrow" />
+
+        <!-- <android.widget.Button
+            android:id="@+id/btn_detail"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_arrow"
+            android:layout_below="@id/main_card"
+            android:layout_toEndOf="@id/second_card"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp">
+
+        </android.widget.Button>-->
+    </RelativeLayout>
+
+</LinearLayout>
